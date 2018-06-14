@@ -1,5 +1,8 @@
-#include "Adafruit_Thermal.h"
+// ----- grocery arduino -----  //
 
+//includes code by Simon Merrett - http://www.instructables.com/id/Improved-Arduino-Rotary-Encoder-Reading/
+
+#include "Adafruit_Thermal.h"
 #include "SoftwareSerial.h"
 #define TX_PIN 6 // Arduino transmit - labeled RX on printer
 #define RX_PIN 5 // Arduino receive - labeled TX on printer
@@ -179,5 +182,11 @@ void printIt(){
   printer.setLineHeight(80);
   printer.println(F("soda 1L"));
 }
-
-
+   /*}
+   if (rasPiVal != 0) {
+       printer.setSize('L');
+       printer.justify('C');
+       printer.setLineHeight(80);
+       printer.println(F("Center justified"));
+   }
+   delay(100);*/
