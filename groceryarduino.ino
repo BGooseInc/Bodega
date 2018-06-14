@@ -179,12 +179,5 @@ void printIt(){
   printer.setLineHeight(80);
   printer.println(F("soda 1L"));
 }
-   /*}
-   if (rasPiVal != 0) {
-       printer.setSize('L');
-       printer.justify('C');
-       printer.setLineHeight(80);
-       printer.println(F("Center justified"));
-   }
-   delay(100);*/
+
 
